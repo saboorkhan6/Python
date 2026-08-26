@@ -23,7 +23,7 @@ check(a)
 
 # IMPORTING A FUNCTION
 # A function written in another Python file can be imported and used
-# in the current file.
+# in the current file
 
 #return
 def add(s,t):
