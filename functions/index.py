@@ -22,7 +22,11 @@ a=int(input("enter a number="))
 # IMPORTING A FUNCTION
 # A function written in another Python file can be imported and used
 # in the current file.
-#
+
+#return
+def add(s,t):
+    return s+t
+print(add(1,2))
 # Syntax:
 # from filename import function_name
 
