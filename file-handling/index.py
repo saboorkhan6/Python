@@ -39,8 +39,3 @@ file.close()
 
 with open ("file2.txt","w") as s:
     s.write("modern file handling")
-    
-#write+read+binary format
-file=open("new.txt","w+b")
-file.write(b"abccc")
-file.close()
