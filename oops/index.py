@@ -21,19 +21,46 @@ together into a single unit (a class) while restricting direct access to some of
 -ABSTRACTION : (means hiding the complexity of code) Abstraction is the process of hiding complex implementation details and 
 showing only the essential features to the user.
 
+-POLIMORPHISM : Same concept diff behaviour
+
+-INHERITANCE : Inherit properties from parent to child
+
 """
 
-class name:
-    def greet(self,a,b):
-        print(a+b)
-        print("hello")
+# class name:
+#     def greet(self,a,b):
+#         print(a+b)
+#         print("hello")
 
-    def bye(self):         # 'self' acts as the catcher
-        print("bye")    
+    # def bye(self):         # 'self' acts as the catcher
+    #     print("bye")    
 
-i=name()       #i is object
-i.greet(1,1)    #object(here its is-i) itself is passed as the first argument ,i.e. i,1,1
-i.bye()         
+# i=name()       #i is object
+# i.greet(1,1)    #object(here its is-i) itself is passed as the first argument ,i.e. i,1,1
+# i.bye()         
 
 #SELF :  represents the specific object (or instance) you are currently creating or working with. 
 # It acts as a pointer that tells Python, "Hey, assign this data or run this action for this specific object, not the whole class.
+
+#polimorphism
+class numbers :
+    def four(self):
+        print("4")
+    def zero(self):
+        print("0")
+n=numbers()
+n.four()
+n.zero()
+
+#inheritance
+class fruit:
+    def apple(self):
+        print("apple")
+
+class vegetable(fruit):
+    def cabbage(self):
+        print("cabbage")
+
+v=vegetable()
+v.apple()
+v.cabbage()
