@@ -1,4 +1,5 @@
 #slicing & indexing
+#String SlicingSlicing allows you to grab a specific subsection of a string. The syntax uses square brackets with up to three parameters separated by colons: string[start:end:step].start: The index where the slice begins (inclusive). Defaults to 0.end: The index where the slice stops (exclusive—it does not include this character). Defaults to the end of the string.step: The step size or increment interval. Defaults to 1. 
 lt=[10,2,60,80,75,59,1]
 print(lt[1:5]) #range
 
