@@ -16,3 +16,4 @@ print(len(strr)-1)
 print(strr[17])
 print(strr[:6])
 print(strr[7:18])
+. String SlicingSlicing allows you to grab a specific subsection of a string. The syntax uses square brackets with up to three parameters separated by colons: string[start:end:step].start: The index where the slice begins (inclusive). Defaults to 0.end: The index where the slice stops (exclusive—it does not include this character). Defaults to the end of the string.step: The step size or increment interval. Defaults to 1.
